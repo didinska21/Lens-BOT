@@ -12,7 +12,7 @@ const deployedPath = "./deployed_contracts.json";
 
 function showBanner() {
   console.clear();
-  const banner = figlet.textSync("Lens Testnet", { font: "ANSI Shadow" });
+  const banner = figlet.textSync("L e n s", { font: "ANSI Shadow" });
   console.log(gradient.pastel.multiline(banner));
   console.log(chalk.gray.bold("owner : t.me/didinska\n"));
 }
